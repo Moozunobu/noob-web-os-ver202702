@@ -12,7 +12,7 @@ export default defineConfig(({mode}) => {
     process.env.GOOGLE_MAPS_API_KEY ||
     '';
   return {
-    base: '/noon-os/', // ★ここを追加（GitHubのリポジトリ名が「noon-os」の場合）
+    base: '/noob-web-os-ver202702/', // ここを追加（GitHubのリポジトリ名が「noon-os」の場合）
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GOOGLE_MAPS_API_KEY': JSON.stringify(mapsKey),
